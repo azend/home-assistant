@@ -27,7 +27,6 @@ PLATFORM_SCHEMA = PLATFORM_SCHEMA.extend({
 
 def setup_platform(hass, config, add_devices, discovery_info=None):
     """Setup the TCP Lighting platform."""
-    import sys
     import tcpconnected
 
     # Assign configuration variables. The configuration check takes care they are
